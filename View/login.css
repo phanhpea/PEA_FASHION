@@ -1,0 +1,116 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "SF Pro Display",sans-serif;
+}
+
+.col-half{
+    margin-left: 100px;
+    width: 50%;
+}
+
+.form-log{
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 164px;
+}
+
+.bread-crumb{
+    height: 108px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(https://pos.nvncdn.net/4ef0bf-108661/bn/20220414_7SFJ4Yw4XgsLrskMWTDfq2yc.jpg);
+}
+
+.bread-crumb .breadcrumbCate{
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0;
+}
+
+.bread-crumb .breadcrumbCate li{
+    list-style: none;
+}
+
+.bread-crumb .breadcrumbCate li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boxUser{
+    display: flex;
+}
+
+.boxUser .title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #303030;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#formAccount,
+#formAccountSignup{
+    margin-top: 30px;
+}
+
+.form-group{
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.form-group label{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #303030;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.form-group .input-account{
+    width: 80%;
+    background: 0 0;
+    box-shadow: none;
+    border-radius: unset;
+    border: 1px solid #D9D9D9;
+    color: #656565;
+    padding: 13px 16px;
+    height: auto;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form-group .wrapperBtn{
+    margin-top: 24px;
+}
+
+.form-group .wrapperBtn a{
+    display: block;
+    background: #303030;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 9px;
+    text-transform: uppercase;
+    border-radius: 0;
+    text-decoration: none;
+    text-align: center;
+    width: 80%;
+}
+
+
+    
+
+
+
+

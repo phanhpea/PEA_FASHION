@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display",sans-serif;
+}
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.container .banner{
+    margin-bottom: 0;
+    height: 108px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://pos.nvncdn.net/4ef0bf-108661/bn/20220414_7SFJ4Yw4XgsLrskMWTDfq2yc.jpg);
+}
+
+.bread_cum .box-search{
+    text-align: center;
+} 
+
+.bread_cum .box-search form{
+    width: 680px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: rgb(50 50 93/25%) 0 50px 100px -20px, rgb(0 0 0/30%) 0 10px 20px -10px;;
+}
+
+.bread_cum .box-search form input{
+    height: 45px;
+    color: #303030;
+    padding: 10px 20px;
+    width: 99%;
+    border: none;
+}
+
+.bread_cum .box-search form button{
+    background: #303030;
+    color: #fff;
+    border: none;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 0 15px;
+    border-radius: 0 4px 4px 0;
+}
+
+.bread_cum .container ul{
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0;
+}
+
+.bread_cum .container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.productWrap .container .details-product{
+    display: flex;
+    text-align: center;
+}
+
+
+.productWrap .container .image-item img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain
+}
+
+
+
+
